@@ -90,6 +90,7 @@ if not os.path.exists(savedir + '/debug'):
 
 print('----------------- Loading Frames -----------------')
 frames = os.listdir(frames_dir)
+frames = sorted(frames)
 print('----------------- All Loaded -----------------')
 
 pose_window = []
